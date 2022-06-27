@@ -1,1 +1,3 @@
 # JudahRecords
+
+Music Blog
