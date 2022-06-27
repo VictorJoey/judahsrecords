@@ -16939,12 +16939,13 @@ footer .footer-bottom a:hover {
 .social-list li::after {
   display: none;
 }
-.social-list li a:hover svg path {
+.social-list li a:hover {
   fill: var(--main_color);
 }
-.social-list li a svg path {
+.social-list li a {
   transition: all 0.3s;
-  fill: #fff;
+  color: #fff;
+  font-size: 25px;
 }
 .main-slider {
   background: var(--main_dark);
