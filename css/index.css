@@ -17013,7 +17013,7 @@ footer .footer-bottom a:hover {
   transition: all 0.3s;
 }
 .main-slider .tt-slide .tt-slide_header {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 64px;
   font-weight: bold;
   font-family: var(--header_font);
@@ -17024,6 +17024,15 @@ footer .footer-bottom a:hover {
   opacity: 0;
   -ms-transform: translateX(80px);
   transform: translateX(80px);
+}
+.main-slider .tt-slide .music-icons {
+  margin-bottom: 30px;
+}
+.main-slider .tt-slide .music-icons img {
+  display: inline-block;
+  margin-right: 10px;
+  width: 30px;
+  height: auto;
 }
 .main-slider .tt-slide .tt-slide_header span {
   display: inline-block;
