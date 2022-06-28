@@ -4332,8 +4332,8 @@ h3 + h1 {
   }
 } /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
@@ -13976,7 +13976,7 @@ a.text-dark:hover {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-} /*! nouislider - 14.0.2 - 6/28/2019 */
+} /*! nouislider - 14.0.2 - 6/28/2022 */
 .noUi-target,
 .noUi-target * {
   -webkit-touch-callout: none;
@@ -15083,10 +15083,12 @@ table tfoot td:last-child {
   width: 75px;
   height: auto;
 }
-.logo .logo-text {
+.logo .logo-text,
+.logo .logo-text-header {
   font-family: var(--header_font);
 }
-.logo .logo-text span {
+.logo .logo-text span,
+.logo .logo-text-header span {
   display: block;
   color: #fff;
 }
@@ -15102,6 +15104,45 @@ table tfoot td:last-child {
   font-weight: bold;
   letter-spacing: 0.25em;
   line-height: 15px;
+}
+.logo .logo-text-header span:first-child {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 42px;
+  letter-spacing: -0.03em;
+}
+.logo .logo-text-header span:last-child {
+  padding-left: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.25em;
+  line-height: 15px;
+}
+@media screen and (max-width: 767px) {
+  .logo img {
+    width: 40px;
+  }
+  .logo .logo-text-header span:first-child {
+    font-size: 15px;
+    line-height: 32px;
+  }
+  .logo .logo-text-header span:last-child {
+    font-size: 6px;
+    line-height: 12px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .logo img {
+    width: 45px;
+  }
+  .logo .logo-text span:first-child {
+    font-size: 25px;
+    line-height: 42px;
+  }
+  .logo .logo-text span:last-child {
+    font-size: 10px;
+    line-height: 15px;
+  }
 }
 .hamburger {
   position: relative;
@@ -16532,6 +16573,9 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle {
   .header-wrap {
     height: 64px;
   }
+  .header-wrap header {
+    padding: 10px 0;
+  }
   .header-wrap.is-scroll {
     height: 64px;
     padding: 0 15px;
@@ -16547,7 +16591,7 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle {
     line-height: 1em;
   }
   .header-wrap .logo img {
-    height: 30px;
+    height: auto;
   }
 }
 .main-nav {
@@ -16990,7 +17034,6 @@ footer .footer-bottom a:hover {
   background-size: cover !important;
   background-position: center center !important;
   background-attachment: fixed !important;
-
 }
 .main-slider .tt-slide .slide-bg img {
   position: absolute;
