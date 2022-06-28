@@ -17983,8 +17983,9 @@ body.mfp-is-open .awp-player-popup {
 .text-section .text-section_video .text-img {
   position: relative;
   z-index: 1;
-  width: 100%;
+  width: 80%;
   max-width: 544px;
+  padding-right: 50px;
 }
 .text-section .text-section_video .text-img-bg {
   position: absolute;
