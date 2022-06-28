@@ -1,7 +1,7 @@
 :root {
   --main_font: 'Roboto', sans-serif;
   --header_font: 'Poppins', sans-serif;
-  --font_awsome: 'Font Awesome 5 Free';
+  --font_awesome: 'Font Awesome 5 Free';
   --main_color: #ff6600;
   --main_color_rgb: 255, 102, 0;
   --main_color_2: #7b16d9;
@@ -15080,6 +15080,8 @@ table tfoot td:last-child {
 }
 .logo img {
   margin-right: 10px;
+  width: 75px;
+  height: auto;
 }
 .logo .logo-text {
   font-family: var(--header_font);
@@ -16984,10 +16986,11 @@ footer .footer-bottom a:hover {
   z-index: 1;
   width: 100%;
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.165;
   background-size: cover !important;
   background-position: center center !important;
   background-attachment: fixed !important;
+
 }
 .main-slider .tt-slide .slide-bg img {
   position: absolute;
