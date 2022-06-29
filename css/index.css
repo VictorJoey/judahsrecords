@@ -18985,10 +18985,11 @@ body.mfp-is-open .awp-player-popup {
   font-family: var(--header_font);
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 30px;
   text-align: center;
   color: #fff;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 .call-banner a svg,
 .call-banner p svg {
