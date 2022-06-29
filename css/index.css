@@ -15113,7 +15113,7 @@ table tfoot td:last-child {
 }
 .logo .logo-text-header span:last-child {
   padding-left: 5px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   letter-spacing: 0.25em;
   line-height: 15px;
@@ -15123,11 +15123,10 @@ table tfoot td:last-child {
     width: 40px;
   }
   .logo .logo-text-header span:first-child {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 32px;
   }
   .logo .logo-text-header span:last-child {
-    font-size: 6px;
     line-height: 12px;
   }
 }
@@ -16569,12 +16568,12 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle {
     padding: 0 15px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .header-wrap {
     height: 64px;
   }
   .header-wrap header {
-    padding: 10px 0;
+    padding: 0;
   }
   .header-wrap.is-scroll {
     height: 64px;
@@ -16592,6 +16591,11 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle {
   }
   .header-wrap .logo img {
     height: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header-wrap header {
+    padding: 5px 0;
   }
 }
 .main-nav {
@@ -18980,6 +18984,9 @@ body.mfp-is-open .awp-player-popup {
   text-align: center;
   color: #fff;
   cursor: pointer;
+}
+.call-banner a:first-child {
+  margin-bottom: 20px;
 }
 .call-banner a svg {
   margin-right: 10px;
