@@ -18935,6 +18935,10 @@ body.mfp-is-open .awp-player-popup {
   background-repeat: no-repeat !important;
   text-align: center;
 }
+.call-banner .container .address {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
 .call-banner::before {
   content: '';
   position: absolute;
@@ -18985,13 +18989,12 @@ body.mfp-is-open .awp-player-popup {
   color: #fff;
   cursor: pointer;
 }
-.call-banner a:first-child {
-  margin-bottom: 20px;
-}
-.call-banner a svg {
+.call-banner a svg,
+.call-banner p svg {
   margin-right: 10px;
 }
-.call-banner a svg path {
+.call-banner a svg path,
+.call-banner p svg path {
   fill: var(--main_color);
 }
 @media (max-width: 991px) {
