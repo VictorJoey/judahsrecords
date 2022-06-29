@@ -17082,7 +17082,7 @@ footer .footer-bottom a:hover {
 .main-slider .tt-slide .music-icons img {
   display: inline-block;
   margin-right: 10px;
-  width: 30px;
+  width: 35px;
   height: auto;
 }
 .main-slider .tt-slide .tt-slide_header span {
@@ -17987,9 +17987,11 @@ body.mfp-is-open .awp-player-popup {
 .text-section .text-section_video .text-img {
   position: relative;
   z-index: 1;
-  width: 80%;
+  width: 125%;
   max-width: 544px;
-  padding-right: 50px;
+  box-shadow: inset 0px -8px 6px -6px grey;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .text-section .text-section_video .text-img-bg {
   position: absolute;
@@ -18985,10 +18987,11 @@ body.mfp-is-open .awp-player-popup {
   font-family: var(--header_font);
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 30px;
   text-align: center;
   color: #fff;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 .call-banner a svg,
 .call-banner p svg {
