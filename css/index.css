@@ -17950,7 +17950,7 @@ body.mfp-is-open .awp-player-popup {
 }
 .text-section .text-section_video {
   position: relative;
-  max-width: 560px;
+  max-width: 300px;
   margin-left: auto;
   margin-right: auto;
   text-align: right;
@@ -17993,10 +17993,11 @@ body.mfp-is-open .awp-player-popup {
 }
 .text-section .text-section_video .text-img-bg {
   position: absolute;
-  top: 50%;
+  top: 20%;
   right: 0;
   z-index: -1;
-  transform: translateX(200px) translateY(-50%) translateZ(-100px);
+  transform: translateX(160px) translateY(-50%) translateZ(-100px);
+  max-width: 125%;
 }
 .text-section .fluid-text-img {
   position: absolute;
