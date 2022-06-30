@@ -18038,6 +18038,9 @@ body.mfp-is-open .awp-player-popup {
   }
 }
 @media (max-width: 767px) {
+  .text-section .text-section_video .text-img-bg {
+    top: 50%;
+  }
   .text-section.fluid-text-section .text-block h2 {
     display: block;
   }
