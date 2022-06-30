@@ -15627,7 +15627,7 @@ table tfoot td:last-child {
   }
 }
 .section-header {
-  max-width: 700px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -18038,6 +18038,9 @@ body.mfp-is-open .awp-player-popup {
   }
 }
 @media (max-width: 767px) {
+  .text-section .text-section_video .text-img-bg {
+    top: 50%;
+  }
   .text-section.fluid-text-section .text-block h2 {
     display: block;
   }
@@ -19440,7 +19443,7 @@ body.mfp-is-open .awp-player-popup {
 }
 .tile-price-card .text p {
   margin-bottom: 0;
-  color: #fff;
+  color: var(--header_color_2);
 }
 .tile-price-card .price {
   min-width: 110px;
