@@ -15106,14 +15106,14 @@ table tfoot td:last-child {
   line-height: 15px;
 }
 .logo .logo-text-header span:first-child {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 800;
   line-height: 42px;
   letter-spacing: -0.03em;
 }
 .logo .logo-text-header span:last-child {
   padding-left: 5px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   letter-spacing: 0.25em;
   line-height: 15px;
@@ -15139,7 +15139,7 @@ table tfoot td:last-child {
     line-height: 42px;
   }
   .logo .logo-text span:last-child {
-    font-size: 10px;
+    font-size: 8px;
     line-height: 15px;
   }
 }
