@@ -17084,6 +17084,10 @@ footer .footer-bottom a:hover {
   margin-right: 10px;
   width: 35px;
   height: auto;
+  transition:  all 0.3s;
+}
+.main-slider .tt-slide .music-icons img:hover {
+  transform: scale(1.2);
 }
 .main-slider .tt-slide .tt-slide_header span {
   display: inline-block;
@@ -21424,4 +21428,26 @@ body.mfp-is-open .awp-player-popup {
 }
 .home-page .clone-nav {
   display: none !important;
+}
+.whatsapp-float {
+	position: fixed;
+	width: 40px;
+	height: auto;
+	bottom: 60px;
+	left: 20px;
+  z-index: 100;
+  transition: all 0.4s ease-in-out;
+}
+.whatsapp-float:hover {
+  transform: scale(1.3);
+}
+.whatsapp-float:active {
+  transform: scale(.7);
+}
+.whatsapp-float img {
+  opacity: 0.55;
+  transition: all 0.4s ease-in-out;
+}
+.whatsapp-float img:hover {
+  opacity: 1;
 }
