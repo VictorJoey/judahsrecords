@@ -19443,7 +19443,7 @@ body.mfp-is-open .awp-player-popup {
 }
 .tile-price-card .text p {
   margin-bottom: 0;
-  color: var(--header_color_2);
+  color: var(--no_active);
 }
 .tile-price-card .price {
   min-width: 110px;
