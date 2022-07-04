@@ -19462,7 +19462,7 @@ body.mfp-is-open .awp-player-popup {
   border-radius: 50% 0 0 50%;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1em;
   letter-spacing: -0.03em;
   color: #2d2d2d;
@@ -19470,13 +19470,13 @@ body.mfp-is-open .awp-player-popup {
 .tile-price-card .price span {
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 35px;
   line-height: 1em;
   letter-spacing: -0.03em;
   color: var(--main_color);
 }
 .tile-price-card .price span span {
-  font-size: 18px;
+  font-size: 15px;
 }
 @media (max-width: 767px) {
   .tile-price-card .price {
@@ -19523,7 +19523,7 @@ body.mfp-is-open .awp-player-popup {
     height: 87px;
   }
   .tile-price-grid .tile-price-card span {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 .book-list .book-line {
